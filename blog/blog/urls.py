@@ -23,5 +23,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', start_page, name='start'),
     path('blog/<int:param>', blog_page, name='blog'),
-    path('create_blog', create_blog, name='create')
+    path('create_blog/', create_blog, name='create')
 ]
